@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowUpRight, Filter } from "lucide-react";
+import stokkeImage from "../assets/ClikkHighChrFjrdBluAVSHF23_VND.jpg";
 
 const allWork = [
   {
@@ -11,7 +12,7 @@ const allWork = [
   {
     title: "Stokke High Chairs",
     category: "Celebrity Seeding",
-    image: "https://images.unsplash.com/photo-1544126592-807daa2b565b?auto=format&fit=crop&q=80&w=800",
+    image: stokkeImage,
     size: "small"
   },
   {
@@ -72,9 +73,9 @@ export default function WorkPage() {
               transition={{ delay: index * 0.1 }}
               className={`case-study-card ${work.size === 'large' ? 'md:col-span-2 aspect-[16/9]' : 'aspect-[3/4]'}`}
             >
-              <img 
-                src={work.image} 
-                alt={work.title} 
+              <img
+                src={work.image}
+                alt={work.title}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />

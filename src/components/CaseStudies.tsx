@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
+import stokkeImage from "../assets/ClikkHighChrFjrdBluAVSHF23_VND.jpg";
 
 const caseStudies = [
   {
@@ -12,7 +13,7 @@ const caseStudies = [
     title: "Stokke High Chairs",
     category: "Celebrity Seeding",
     impact: "12M+ Social Reach",
-    image: "https://images.unsplash.com/photo-1544126592-807daa2b565b?auto=format&fit=crop&q=80&w=800",
+    image: stokkeImage,
   },
   {
     title: "Liewood Copenhagen",
